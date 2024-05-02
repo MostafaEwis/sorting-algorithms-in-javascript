@@ -1,0 +1,16 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "A sandbox for sorting algorithms using javascript",
+  "main": "merge.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MostafaEwis/sorting-algorithms-in-javascript"
+  },
+  "author": "Mostafa Ewis",
+  "license": "GPL-3.0",
+  "type": "module"
+}

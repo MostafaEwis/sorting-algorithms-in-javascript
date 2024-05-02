@@ -1,5 +1,3 @@
-let arr = [2, 8, 1, 3, 5, 4, 6, 7];
-
 const insertionSort = (arr) => {
   if (arr.length < 2) return arr;
   for (let i = 1; i < arr.length; i++) {
@@ -12,10 +10,10 @@ const insertionSort = (arr) => {
       } else {
         break;
       }
-      console.log(arr);
       j--;
     }
   }
   return arr;
 };
-console.log(insertionSort(arr));
+
+export default insertionSort;

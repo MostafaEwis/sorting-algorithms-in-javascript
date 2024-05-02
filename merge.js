@@ -1,5 +1,3 @@
-let arr = [2, 8, 1, 3, 5, 4, 6, 7, 9];
-
 const merge = (arrL, arrR) => {
   let sortedArr = [];
   let arrLPointer = 0;
@@ -23,6 +21,7 @@ const merge = (arrL, arrR) => {
       sortedArr.push(arrR[i]);
     }
   }
+
   return sortedArr;
 };
 
@@ -38,4 +37,4 @@ const mergeSort = (arr) => {
   }
 };
 
-console.log(mergeSort(arr));
+export default mergeSort;
